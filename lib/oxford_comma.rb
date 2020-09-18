@@ -10,8 +10,8 @@ def oxford_comma(array)
 		if word == array.last
 			string << "and #{word}"
 		else
-			res << "#{word}, "
+			string << "#{word}, "
 		end 
 	end
-	res  
+	sting  
 end
