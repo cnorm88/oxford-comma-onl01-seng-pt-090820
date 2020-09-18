@@ -1,5 +1,5 @@
 def oxford_comma(array)
-	res = ''
+	string = ''
 		if array.size == 1
 			return array[0]
 		end
@@ -8,7 +8,7 @@ def oxford_comma(array)
 		end  
 	array.each do |word|
 		if word == array.last
-			res << "and #{word}"
+			string << "and #{word}"
 		else
 			res << "#{word}, "
 		end 
