@@ -13,5 +13,5 @@ def oxford_comma(array)
 			string << "#{word}, "
 		end 
 	end
-	sting  
+	string  
 end
